@@ -1,0 +1,11 @@
+name: dexterous-hand
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - tk
+  - pinocchio=4.1.0
+  - pytorch-cpu=2.14.1
+  - pip:
+      - -r requirements.txt

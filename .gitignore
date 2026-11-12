@@ -1,0 +1,26 @@
+# Local environments and tools
+/conda_env/
+/.venv/
+/venv/
+/tools/*
+
+# Device data, generated models, and runtime state
+/qnbot_data/
+/generated/
+/.qnbot/
+*.log
+
+# Python and editor caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.idea/
+
+# Credentials and duplicate archives
+.env
+.env.*
+*.pem
+*.key
+*.rar
+*.zip

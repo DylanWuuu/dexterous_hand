@@ -1,0 +1,9 @@
+# Upstream DexPilotOptimizer; do not override its generated human indices.
+retargeting:
+  type: dexpilot
+  urdf_path: generated/dex_hand.urdf
+  wrist_link_name: link_003
+  finger_tip_link_names: [dex_thumb_tip, dex_index_tip, dex_middle_tip, dex_ring_tip, dex_pinky_tip]
+  target_joint_names: [link_004_joint, link_005_joint, link_006_joint, link_007_joint, link_008_joint, link_009_joint, link_010_joint, link_011_joint, link_012_joint, link_013_joint, link_014_joint, link_015_joint, link_016_joint, link_017_joint, link_018_joint, link_019_joint, link_020_joint, link_021_joint, link_022_joint, link_023_joint]
+  scaling_factor: 1.0
+  low_pass_alpha: 0.5

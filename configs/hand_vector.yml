@@ -1,0 +1,10 @@
+# Structure follows upstream shadow_hand_left.yml: wrist->tips and wrist->PIP.
+retargeting:
+  type: vector
+  urdf_path: generated/dex_hand.urdf
+  target_joint_names: [link_004_joint, link_005_joint, link_006_joint, link_007_joint, link_008_joint, link_009_joint, link_010_joint, link_011_joint, link_012_joint, link_013_joint, link_014_joint, link_015_joint, link_016_joint, link_017_joint, link_018_joint, link_019_joint, link_020_joint, link_021_joint, link_022_joint, link_023_joint]
+  target_origin_link_names: [link_003, link_003, link_003, link_003, link_003, link_003, link_003, link_003, link_003, link_003]
+  target_task_link_names: [dex_thumb_tip, dex_index_tip, dex_middle_tip, dex_ring_tip, dex_pinky_tip, link_006, link_010, link_014, link_018, link_022]
+  target_link_human_indices: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [4, 8, 12, 16, 20, 2, 6, 10, 14, 18]]
+  scaling_factor: 1.0
+  low_pass_alpha: 0.5
